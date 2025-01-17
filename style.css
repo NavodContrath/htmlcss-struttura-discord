@@ -16,6 +16,10 @@
     #community {
         background-color: #d3d3d3;
     }
+
+    #technology {
+        background-color: #d3d3d3;
+    }
 }
 
 .w-80 {
@@ -58,7 +62,10 @@
 
 header {
     min-height: 80px;
+}
 
+#technology {
+    min-height: 800px;
 }
 
 #logo-container {
@@ -66,7 +73,6 @@ header {
     height: 2rem;
     justify-content: space-between;
     align-items: center;
-
 
     ul {
         list-style: none;
@@ -101,6 +107,9 @@ header {
     width: 50%;
     min-height: 400px;
     background-color: #ee82ee;
+}
 
-
+#techno-container {
+    height: 700px;
+    background-color: #228b22;
 }
