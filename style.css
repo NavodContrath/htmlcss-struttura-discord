@@ -87,9 +87,9 @@ header {
 
 #logo-container {
     background-color: #daa520;
-    height: 2rem;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem auto 1rem auto;
 
     ul {
         list-style: none;
