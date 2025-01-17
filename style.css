@@ -24,6 +24,10 @@
     #references {
         background-color: #23272a;
     }
+
+    #logo-footer {
+        background-color: #23272a;
+    }
 }
 
 .m-A {
@@ -76,6 +80,11 @@ header {
     min-height: 800px;
 }
 
+#logo-footer {
+    min-height: 80px;
+    border-top: 2px solid grey;
+}
+
 #logo-container {
     background-color: #daa520;
     height: 2rem;
@@ -124,14 +133,32 @@ header {
 
 #ref-container {
     margin: 1rem auto auto auto;
+
+    #ref-image {
+        background-color: #f08080;
+        min-height: 400px;
+    }
+
+    .ref-links {
+        background-color: #20b2aa;
+        min-height: 400px;
+    }
 }
 
-#ref-image {
-    background-color: #f08080;
-    min-height: 400px;
-}
+#foot-container {
+    height: 4rem;
+    background-color: #7fffd4;
+    margin: auto auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
 
-.ref-links {
-    background-color: #20b2aa;
-    min-height: 400px;
+    #foot-logo {
+        background-color: #ffb6c1;
+        height: 2rem;
+    }
+
+    #foot-btn {
+        background-color: #ffb6c1;
+        height: 2rem;
+    }
 }
