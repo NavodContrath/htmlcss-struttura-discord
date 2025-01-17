@@ -8,6 +8,10 @@
     header {
         background-color: #add8e6;
     }
+
+    #jumbotron {
+        background-color: #00008b;
+    }
 }
 
 .w-80 {
@@ -18,10 +22,22 @@
     margin: auto;
 }
 
+.h-500 {
+    height: 500px;
+}
+
+.bor-dot {
+    border: 2px dotted black;
+}
+
 header {
     display: flex;
     min-height: 80px;
 
+}
+
+#jumbotron {
+    display: flex;
 }
 
 #logo-container {
@@ -30,7 +46,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px dotted black;
+
 
     ul {
         list-style: none;
@@ -59,4 +75,12 @@ header {
         text-align: end;
 
     }
+}
+
+#jumbo-container {
+    width: 50%;
+    min-height: 400px;
+    background-color: #ee82ee;
+
+
 }
