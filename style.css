@@ -30,6 +30,28 @@
     border: 2px dotted black;
 }
 
+.flex {
+    display: flex;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.description {
+    background-color: #1e90ff;
+    min-height: 400px;
+}
+
+.image {
+    background-color: #ffc0cb;
+    min-height: 400px;
+}
+
 header {
     display: flex;
     min-height: 80px;
@@ -40,10 +62,10 @@ header {
     display: flex;
 }
 
+
 #logo-container {
     background-color: #daa520;
     height: 2rem;
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
