@@ -12,6 +12,10 @@
     #jumbotron {
         background-color: #00008b;
     }
+
+    #community {
+        background-color: #d3d3d3;
+    }
 }
 
 .w-80 {
@@ -53,15 +57,9 @@
 }
 
 header {
-    display: flex;
     min-height: 80px;
 
 }
-
-#jumbotron {
-    display: flex;
-}
-
 
 #logo-container {
     background-color: #daa520;
