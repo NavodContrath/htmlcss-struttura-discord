@@ -34,8 +34,8 @@
     margin: auto;
 }
 
-.h-500 {
-    height: 500px;
+.vertical-pad {
+    padding: 2rem 0 2rem 0;
 }
 
 .w-80 {
@@ -73,15 +73,14 @@
 }
 
 header {
-    min-height: 80px;
+    padding: 10px 0 10px 0;
 }
 
-#technology {
-    min-height: 800px;
+#references {
+    padding: 5px 0 2rem 0;
 }
 
 #logo-footer {
-    min-height: 80px;
     border-top: 2px solid grey;
 }
 
@@ -89,7 +88,8 @@ header {
     background-color: #daa520;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem auto 1rem auto;
+    padding: 5px 0 5px 0;
+
 
     ul {
         list-style: none;
@@ -132,7 +132,7 @@ header {
 }
 
 #ref-container {
-    margin: 1rem auto auto auto;
+    margin: auto;
 
     #ref-image {
         background-color: #f08080;
@@ -148,17 +148,17 @@ header {
 #foot-container {
     height: 4rem;
     background-color: #7fffd4;
-    margin: auto auto 0 auto;
+    margin: 1rem auto 0 auto;
     justify-content: space-between;
     align-items: center;
 
     #foot-logo {
         background-color: #ffb6c1;
-        height: 2rem;
+        height: 1.5rem;
     }
 
     #foot-btn {
         background-color: #ffb6c1;
-        height: 2rem;
+        height: 1.5rem;
     }
 }
